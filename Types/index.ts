@@ -6,3 +6,8 @@ export interface CustomButton{
     btnType?: "button" | "submit",
     handleClick?: MouseEventHandler<HTMLButtonElement>
 }
+export interface Manufacturer{
+    manufacturer: String,
+    setManufacturer?: (manufacturer: string) => void,
+    
+}
